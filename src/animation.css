@@ -1,0 +1,145 @@
+#circle-2 {
+  animation: animate-circle 2s ease-out 1s infinite;
+}
+#circle-3 {
+  animation: animate-circle-2 2s ease-out 1s infinite;
+}
+@keyframes animate-circle {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes animate-circle-2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* man interact */
+#white-box {
+  animation: white-circle 3s ease-out infinite forwards;
+  transform-origin: top;
+}
+@keyframes white-circle {
+  0% {
+    translate: 280px -115px;
+  }
+  100% {
+    translate: 0px 0px;
+  }
+}
+#white-box-man {
+  animation: white-circle-man 3s ease-out infinite forwards;
+}
+@keyframes white-circle-man {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#left-hand,
+#left-finger {
+  animation: left-hand 3s ease-out infinite forwards;
+}
+@keyframes left-hand {
+  0% {
+    translate: 0px;
+  }
+  50% {
+    translate: -10px -4px;
+  }
+  100% {
+    translate: 0px;
+  }
+}
+
+@keyframes left-hand {
+  0% {
+    translate: 0;
+  }
+  50% {
+    translate: -10px -4px;
+  }
+  100% {
+    translate: 0;
+  }
+}
+
+#right-finger,
+#right-hand {
+  animation: right-hand 3s ease-out infinite forwards;
+}
+@keyframes right-hand {
+  0% {
+    translate: 6px -2px;
+  }
+  50% {
+    translate: 0px;
+  }
+  100% {
+    translate: 6px -2px;
+  }
+}
+#cap,
+#hear,
+#face {
+  animation: head 3s ease-out infinite forwards;
+  transform-origin: top;
+}
+@keyframes head {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+#girl-dress {
+  animation: girl-dress 3s ease-out infinite;
+  transform-origin: top;
+}
+#short-t-shirt {
+  animation: short-dress 3s ease-out infinite;
+  transform-origin: top;
+}
+@keyframes girl-dress {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes short-dress {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
